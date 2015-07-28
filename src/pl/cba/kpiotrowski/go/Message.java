@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 /**
  * Created by sk3 on 2015-07-28.
+ * dsfsdfdsfdsfdsfdsf
  */
 
 public class Message implements Serializable {
