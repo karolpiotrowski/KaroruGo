@@ -26,4 +26,12 @@ public class Game {
             board.setStoneAt(x, y, playerColor[playerNo]);
         }
     }
+
+    public int[] getPlayerIds() {
+        int[] playerIds = new int[2];
+        for(int i = 0; i < 2; ++i) {
+            playerIds[i] = players[i].getPlayerId();
+        }
+        return playerIds;
+    }
 }

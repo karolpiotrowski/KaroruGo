@@ -51,6 +51,12 @@ class MoveMessage extends Message {
 }
 
 class ServerMessage extends Message {
+    int[] playerIds;
+
+    ServerMessage(int[] playerIds) {
+        super();
+        this.playerIds = playerIds;
+    }
 
 }
 
